@@ -1,0 +1,296 @@
+footer {
+  width: 100%;
+  padding: 10px 0px;
+  background: gray;
+}
+footer section {
+  display: flex;
+  background-color: gray 224, 70, 70;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+footer section .copy {
+  margin-top: 0px;
+  padding-top: 20px;
+}
+footer section .redes img {
+  padding-top: 10px;
+  padding: 1px;
+  margin-top: 0px;
+}
+footer section .redes label {
+  padding-top: 10px;
+  padding: 1px;
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: auto;
+  font-size: xx-large;
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: auto;
+  font-size: xx-large;
+  font-family: "Inter", sans-serif;
+}
+
+#t1 {
+  max-width: 48%;
+  height: 400px;
+  margin: 1px;
+  padding: 5px;
+  display: inline-block;
+  margin: auto;
+}
+
+#t2 {
+  max-width: 48%;
+  height: 400px;
+  margin: 1px;
+  padding: 5px;
+  display: inline-block;
+  margin: auto;
+}
+
+#t3 {
+  max-width: 48%;
+  height: 400px;
+  margin: 1px;
+  padding: 5px;
+  display: inline-block;
+  margin: auto;
+}
+
+#t4 {
+  max-width: 48%;
+  height: 400px;
+  margin: 1px;
+  padding: 5px;
+  display: inline-block;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  #t1 {
+    max-width: 98%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #t2 {
+    max-width: 98%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #t3 {
+    max-width: 98%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #t4 {
+    max-width: 98%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+  }
+}
+@media (min-width: 992px) {
+  #t1:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  #t1 {
+    max-width: 24%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+  }
+  #t2:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  #t2 {
+    max-width: 24%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+  }
+  #t3:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  #t3 {
+    max-width: 24%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+  }
+  #t4:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  #t4 {
+    max-width: 24%;
+    height: 400px;
+    margin: 1px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+  }
+}
+.bio .bio_img img {
+  width: 40%;
+  height: 40%;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+.bio .bio_texto {
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  font-size: xx-large;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(143, 231, 202);
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 10px;
+}
+
+.contenido h2 {
+  padding-top: 50px;
+  margin-top: 40px;
+  text-align: center;
+  padding: auto;
+  font-size: xx-large;
+  font-family: "Inter", sans-serif;
+}
+
+.servicios {
+  background-color: aqua;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .servicios {
+    margin-bottom: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.formasDeTrabajo .formasDeTrabajo_text p {
+  margin-top: 40px;
+  text-align: center;
+  padding: auto;
+  font-size: xx-large;
+  font-family: "Inter", sans-serif;
+}
+.formasDeTrabajo .formasDeTrabajo_video iframe {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.contacto form {
+  background-color: rgb(137, 145, 145);
+  color: 999;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+}
+.contacto form label {
+  padding-inline: 5px;
+  padding-top: 5px;
+  margin: 20px;
+  white-space: nowrap;
+}
+.contacto form input {
+  padding-inline: 60px;
+  margin: 20px;
+}
+.contacto form p {
+  padding-inline: 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.contacto form .pais {
+  font-weight: bolder;
+}
+.contacto form .botones {
+  width: 30px;
+  margin-left: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  border-bottom: 4px;
+  border-radius: 10px;
+}
+.contacto form .adjunto {
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contacto form .cuadroAdjuntar .adjunto {
+  padding: 5px 90px;
+  margin-left: opx;
+}
+.contacto form div .cuadro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contacto form div .titulocheck {
+  padding-inline: 8px;
+  font-weight: bolder;
+}
+.contacto form div .check {
+  width: 60px;
+  margin-left: 55px;
+  margin-top: 30px;
+}
+.contacto form div .checkbox {
+  width: 10px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=main.css.map */
